@@ -553,10 +553,14 @@ CONTACT PAGE
 div.contact_form {
     text-align: center;
     display: inline-block;
-    width: 350px;
-    padding: 10px;
+    width: 80%;
+    max-width: 550px;
+    padding: 20px;
     background-color: #b7ddac;
     border-radius: 6px;
+    border: 0.5px solid #315b25;
+    -webkit-box-shadow: 0px 0px 15px 1px #315b25;
+            box-shadow: 0px 0px 15px 1px #315b25;
 }
 
 form {
@@ -564,15 +568,15 @@ form {
 }
 
 .form_input {
-    width: 250px;
+    width: 100%;
     font-style: italic;
     font-variant: small-caps;
 }
 
 #contact-message {
-    max-width: 252px;
-    min-width: 252px;
-    min-height: 16px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 75px;
     margin-top: 5px;
 }
 
