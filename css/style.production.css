@@ -586,6 +586,7 @@ FOOTER
 */
 
 .page-footer {
+    bottom: 0px;
     clear: both;
     display: -webkit-box;
     display: -ms-flexbox;
