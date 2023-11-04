@@ -223,16 +223,12 @@ a.button {
 }
 
 .image-labels {
-    margin-top: -200px;
-    margin-bottom: 50px;
+    margin-top: -17%;
     font-style: italic;
     color: #cccccc;
-    border-bottom: 2px dotted #cccccc;
 }
 
 a.image-labels {
-    margin-top: -200px;
-    margin-bottom: 50px;
     font-style: italic;
     color: #cccccc;
     border-bottom: 2px dotted #cccccc;
@@ -245,6 +241,7 @@ HEADER
 */
 
 .page-header {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -586,8 +583,9 @@ FOOTER
 */
 
 .page-footer {
-    bottom: 0px;
-    clear: both;
+    background-color: #E6E6E6;
+    position: fixed;
+    bottom: 0%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -595,7 +593,6 @@ FOOTER
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    position: absolute;
     text-align: center;
     width: 100%;
 }
