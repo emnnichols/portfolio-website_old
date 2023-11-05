@@ -81,16 +81,16 @@ button {
     font-family: inherit;
     font-style: normal;
     border: none;
-    background-color: #cccccc;
+    background-color: #E6E6E6;
     color: #2b2b2b;
     cursor: pointer;
     padding: 8px 6px 6px 8px; /* top right bottom left */
     border-right: 2px solid rgba(0, 0, 0, 0.3);
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    -webkit-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
-    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
 }
 
 .button {
@@ -98,16 +98,16 @@ button {
     font-family: inherit;
     font-style: normal;
     border: none;
-    background-color: #cccccc;
+    background-color: #E6E6E6;
     color: #2b2b2b;
     cursor: pointer;
     padding: 8px 6px 6px 8px; /* top right bottom left */
     border-right: 2px solid rgba(0, 0, 0, 0.3);
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    -webkit-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
-    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
 }
 
 a.button {
@@ -115,42 +115,42 @@ a.button {
     font-family: inherit;
     font-style: normal;
     border: none;
-    background-color: #cccccc;
+    background-color: #E6E6E6;
     color: #2b2b2b;
     cursor: pointer;
     padding: 8px 6px 6px 8px; /* top right bottom left */
     border-right: 2px solid rgba(0, 0, 0, 0.3);
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    -webkit-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
-    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
 }
 
 button:hover {
-    background-color: #cccccc;
-    color: #2b2b2b;
+    background-color: #4e913b;
+    color: #E6E6E6;
     cursor: pointer;
     opacity: 0.7;
 }
 
 button:focus {
-    background-color: #cccccc;
-    color: #2b2b2b;
+    background-color: #4e913b;
+    color: #E6E6E6;
     cursor: pointer;
     opacity: 0.7;
 }
 
 .button:hover {
-    background-color: #cccccc;
-    color: #2b2b2b;
+    background-color: #4e913b;
+    color: #E6E6E6;
     cursor: pointer;
     opacity: 0.7;
 }
 
 .button:focus {
-    background-color: #cccccc;
-    color: #2b2b2b;
+    background-color: #4e913b;
+    color: #E6E6E6;
     cursor: pointer;
     opacity: 0.7;
 }
@@ -172,7 +172,7 @@ button:active {
 }
 
 .button_secondary {
-    background-color: #b7ddac;
+    background-color: #cccccc;
     color: #2b2b2b;
     font-weight: 400;
     -webkit-transition: opacity 0.5s;
@@ -181,16 +181,7 @@ button:active {
 }
 
 .button {
-    background-color: #b7ddac;
-    color: #2b2b2b;
-    font-weight: 400;
-    -webkit-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
-
-a.button {
-    background-color: #b7ddac;
+    background-color: #cccccc;
     color: #2b2b2b;
     font-weight: 400;
     -webkit-transition: opacity 0.5s;
@@ -551,7 +542,6 @@ CONTACT PAGE
 */
 
 div.contact_form {
-    text-align: center;
     display: inline-block;
     width: 80%;
     max-width: 550px;
@@ -559,17 +549,28 @@ div.contact_form {
     background-color: #b7ddac;
     border-radius: 6px;
     border: 0.5px solid #315b25;
-    -webkit-box-shadow: 0px 0px 15px 1px #315b25;
-            box-shadow: 0px 0px 15px 1px #315b25;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(49, 91, 37, 0.5);
+            box-shadow: 0px 0px 15px 1px rgba(49, 91, 37, 0.5);
 }
 
 form {
-    line-height: 30px;
+    text-align: left;
+    line-height: 20px;
+}
+
+div.contact-button {
+    text-align: center;
 }
 
 .form_input {
+    background-color: rgba(230, 230, 230, 0.5);
+    color: #2b2b2b;
+    border-radius: 6px;
+    border: 1px solid #315b25;
     width: 100%;
-    font-style: italic;
+    padding: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
     font-variant: small-caps;
 }
 

@@ -18,11 +18,13 @@ visted links: dark green (#315b25)
     --links: #4e913b;
     --links-active: #81c46e;
     --links-visited: #315b25;
-    --link-border-bottom: 2px dotted var(--links);
 
+    --primary-color-transparent: rgba(230, 230, 230, 0.5);
+    --links-visit-transparent: rgba(49, 91, 37, 0.5);
+
+    --link-border-bottom: 2px dotted var(--links);
     --button-border: 2px solid rgba(0, 0, 0, 0.3);
     --button-border-active: 2px solid var(--text);
-
     --header-bottom-border: 2px dotted var(--text);
     --nav-border: 2px solid var(--text);
 
@@ -94,20 +96,20 @@ a.button {
     font-family: inherit;
     font-style: normal;
     border: none;
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     color: var(--text);
     cursor: pointer;
     padding: 8px 6px 6px 8px; /* top right bottom left */
     border-right: var(--button-border);
     border-bottom: var(--button-border);
     border-radius: 4px;
-    transition: opacity 0.5s;
+    transition: opacity 0.6s;
 }
 
 button:hover, button:focus,
 .button:hover, .button:focus {
-    background-color: var(--tertiary-color);
-    color: var(--text);
+    background-color: var(--links);
+    color: var(--primary-color);
     cursor: pointer;
     opacity: 0.7;
 }
@@ -122,9 +124,8 @@ button:active,
 }
 
 .button_secondary,
-.button,
-a.button {
-    background-color: var(--secondary-color);
+.button {
+    background-color: var(--tertiary-color);
     color: var(--text);
     font-weight: var(--font-weight-normal);
     transition: opacity 0.5s;
@@ -379,7 +380,6 @@ CONTACT PAGE
 */
 
 div.contact_form {
-    text-align: center;
     display: inline-block;
     width: 80%;
     max-width: 550px;
@@ -387,16 +387,27 @@ div.contact_form {
     background-color: var(--secondary-color);
     border-radius: 6px;
     border: 0.5px solid var(--links-visited);
-    box-shadow: 0px 0px 15px 1px var(--links-visited);
+    box-shadow: 0px 0px 15px 1px var(--links-visit-transparent);
 }
 
 form {
-    line-height: 30px;
+    text-align: left;
+    line-height: 20px;
+}
+
+div.contact-button {
+    text-align: center;
 }
 
 .form_input {
+    background-color: var(--primary-color-transparent);
+    color: var(--text);
+    border-radius: 6px;
+    border: 1px solid var(--links-visited);
     width: 100%;
-    font-style: italic;
+    padding: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
     font-variant: small-caps;
 }
 
