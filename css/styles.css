@@ -4,7 +4,7 @@ Colors used
 text: dark gray (#2b2b2b)
 background/primary: light gray (#E6E6E6)
 header: light green (#b7ddac)
-links: green #4e913b
+links: green (#2c7700)
 active links: light green (#81c46e)
 visted links: dark green (#315b25)
 */
@@ -15,7 +15,7 @@ visted links: dark green (#315b25)
     --tertiary-color: #cccccc;
 
     --text: #2b2b2b;
-    --links: #4e913b;
+    --links: #2c7700;
     --links-active: #81c46e;
     --links-visited: #315b25;
 
