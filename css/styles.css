@@ -418,6 +418,13 @@ div.contact-button {
     margin-top: 5px;
 }
 
+.contact_icon {
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: auto;
+}
+
 /*
 //////////////
 FOOTER
