@@ -571,7 +571,13 @@ div.contact-button {
     padding: 5px;
     letter-spacing: 1px;
     line-height: 20px;
+    font-style: italic;
     font-variant: small-caps;
+}
+
+.form_input:focus {
+    background-color: #E6E6E6;
+    font-style: normal;
 }
 
 #contact-message {
