@@ -24,6 +24,7 @@ visted links: dark green (#315b25)
     --tertiary-color-transparent: rgba(204, 204, 204, 0.4);
     --links-visit-transparent: rgba(49, 91, 37, 0.5);
     --links-transparent: rgba(44, 119, 0, 0.5);
+    --text-transparent: rgba(43, 43, 43, 0.5);
 
     --link-border-bottom: 2px dotted var(--links);
     --button-border: 2px solid rgba(0, 0, 0, 0.3);
@@ -92,9 +93,8 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 
-button, 
-.button,
-a.button {
+button, .button,
+a.button, a.button_secondary  {
     display: inline-block;
     font-family: inherit;
     font-style: normal;
@@ -113,6 +113,7 @@ button:hover, button:focus,
 .button:hover, .button:focus {
     background-color: var(--links-visit-transparent);
     color: var(--primary-color);
+    font-weight: 700;
     cursor: pointer;
     opacity: 0.7;
 }
@@ -126,16 +127,18 @@ button:active,
     padding: 6px;
 }
 
-.button_secondary {
+.button_secondary,
+a.button_secondary {
     background-color: var(--primary-color);
     color: var(--text);
     font-weight: var(--font-weight-normal);
     transition: opacity 0.5s;
 }
 
-.button_secondary:hover, 
-.button_secondary:focus {
+.button_secondary:hover, .button_secondary:focus {
     background-color: var(--links-visit-transparent);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
     opacity: 0.7;
     
 }
@@ -311,7 +314,7 @@ PROJECTS PAGE
     position: relative;
     box-shadow: 0px 0px 10px 5px var(--links-transparent);
     font-style: italic;
-    transform: scale(105%);
+    transform: scale(104%);
     text-shadow: 2px 2px 3px var(--links-transparent);
     color: var(--text);
     letter-spacing: 2px;
@@ -336,6 +339,36 @@ h2 + p {
     font-variant-caps: normal;
 }
 
+}
+
+/*
+//////////////
+PROJECT DETAILS PAGE
+//////////////
+*/
+
+.project__details {
+    background-color: var(--tertiary-color-transparent);
+    box-shadow: 0px 0px 10px 1px var(--links-visit-transparent);
+    border-radius: 13px;
+    margin: 10px auto 150px auto;
+    max-width: 800px;
+    width: 90%;
+    height: 90%;
+    padding: 40px 0px 35px 0px;
+    text-align: center;
+}
+
+.project__image {
+    box-shadow: 0px 0px 15px 2px var(--text-transparent);
+    margin: 0px auto;
+    width: 70%;
+    height: auto;
+}
+
+.project__description {
+    padding: 10px 60px;
+    text-align: left;
 }
 
 /*
