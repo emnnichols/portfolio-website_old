@@ -81,7 +81,7 @@ button {
     font-family: inherit;
     font-style: normal;
     border: none;
-    background-color: #E6E6E6;
+    background-color: #b7ddac;
     color: #2b2b2b;
     cursor: pointer;
     padding: 8px 6px 6px 8px; /* top right bottom left */
@@ -98,7 +98,7 @@ button {
     font-family: inherit;
     font-style: normal;
     border: none;
-    background-color: #E6E6E6;
+    background-color: #b7ddac;
     color: #2b2b2b;
     cursor: pointer;
     padding: 8px 6px 6px 8px; /* top right bottom left */
@@ -115,7 +115,7 @@ a.button {
     font-family: inherit;
     font-style: normal;
     border: none;
-    background-color: #E6E6E6;
+    background-color: #b7ddac;
     color: #2b2b2b;
     cursor: pointer;
     padding: 8px 6px 6px 8px; /* top right bottom left */
@@ -128,28 +128,28 @@ a.button {
 }
 
 button:hover {
-    background-color: #2c7700;
+    background-color: rgba(49, 91, 37, 0.5);
     color: #E6E6E6;
     cursor: pointer;
     opacity: 0.7;
 }
 
 button:focus {
-    background-color: #2c7700;
+    background-color: rgba(49, 91, 37, 0.5);
     color: #E6E6E6;
     cursor: pointer;
     opacity: 0.7;
 }
 
 .button:hover {
-    background-color: #2c7700;
+    background-color: rgba(49, 91, 37, 0.5);
     color: #E6E6E6;
     cursor: pointer;
     opacity: 0.7;
 }
 
 .button:focus {
-    background-color: #2c7700;
+    background-color: rgba(49, 91, 37, 0.5);
     color: #E6E6E6;
     cursor: pointer;
     opacity: 0.7;
@@ -172,16 +172,7 @@ button:active {
 }
 
 .button_secondary {
-    background-color: #cccccc;
-    color: #2b2b2b;
-    font-weight: 400;
-    -webkit-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
-
-.button {
-    background-color: #cccccc;
+    background-color: #E6E6E6;
     color: #2b2b2b;
     font-weight: 400;
     -webkit-transition: opacity 0.5s;
@@ -190,25 +181,13 @@ button:active {
 }
 
 .button_secondary:hover {
-    background-color: #b7ddac;
+    background-color: rgba(49, 91, 37, 0.5);
     opacity: 0.7;
     
 }
 
 .button_secondary:focus {
-    background-color: #b7ddac;
-    opacity: 0.7;
-    
-}
-
-.button:hover {
-    background-color: #b7ddac;
-    opacity: 0.7;
-    
-}
-
-.button:focus {
-    background-color: #b7ddac;
+    background-color: rgba(49, 91, 37, 0.5);
     opacity: 0.7;
     
 }
