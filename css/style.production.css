@@ -412,23 +412,50 @@ PROJECTS PAGE
 
 .grid__item {
     background-color: #cccccc;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
     min-height: auto;
     width: auto;
     margin: 0px;
     -webkit-box-shadow: 4px 4px 5px rgba(43, 43, 43, 0.3);
             box-shadow: 4px 4px 5px rgba(43, 43, 43, 0.3);
     border-radius: 13px;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 .grid__item:hover {
-    -webkit-box-shadow: 0px 0px 10px 5px rgba(43, 43, 43, 0.3);
-            box-shadow: 0px 0px 10px 5px rgba(43, 43, 43, 0.3);
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(49, 91, 37, 0.5);
+            box-shadow: 0px 0px 10px 5px rgba(49, 91, 37, 0.5);
     font-style: italic;
+    -webkit-transform: scale(105%);
+        -ms-transform: scale(105%);
+            transform: scale(105%);
+    text-shadow: 2px 2px 3px rgba(44, 119, 0, 0.5);
+    color: #2b2b2b;
+    letter-spacing: 2px;
+    font-variant-caps: all-small-caps;
+}
+
+.h2_work-page {
+    font-variant-caps: all-small-caps;
+    font-size: 30px;
 }
 
 h2 + p {
+    margin-top: -10px;
     font-style: normal;
+    text-shadow: none;
+    letter-spacing: normal;
+    font-variant-caps: normal;
+}
+
+.grid__item-link {
+    text-shadow: none;
+    font-variant-caps: normal;
 }
 
 }
