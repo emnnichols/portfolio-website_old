@@ -266,7 +266,7 @@ HEADER
 }
 
 .page-header__item:last-child {
-    padding-top: 6px;
+    padding-top: 10px;
     padding-right: 10px;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -275,10 +275,9 @@ HEADER
 }
 
 .portfolio-logo {
-    margin-top: -2px;
-    padding-left: 5px;
+    padding: 5px 0px 5px 5px;
     max-width: 200px;
-    max-height: 70px;
+    max-height: auto;
 }
 
 /*
