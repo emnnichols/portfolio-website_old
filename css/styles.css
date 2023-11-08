@@ -291,6 +291,10 @@ PROJECTS PAGE
 /* end grid fallback */
 
 @supports (display: grid) {
+.project__grid {
+    margin-bottom: 150px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
