@@ -516,7 +516,7 @@ ABOUT PAGE
 
 .main-about {
     text-align: center;
-    margin: 0px auto 150px auto;
+    margin: 0px auto 250px auto;
     max-width: 800px;
 }
 
@@ -634,7 +634,7 @@ CONTACT PAGE
 */
 
 .main-contact {
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 
 div.contact_form {
