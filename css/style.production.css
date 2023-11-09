@@ -552,32 +552,24 @@ ABOUT PAGE
 
 .ferris-wheel {
     position: absolute;
-    -webkit-animation: rotation 7s linear infinite;
-            animation: rotation 7s linear infinite;
-    -webkit-transform-origin: 91% 62%;
-        -ms-transform-origin: 91% 62%;
-            transform-origin: 91% 62%;
+    -webkit-animation: spin 12s infinite linear;
+            animation: spin 12s infinite linear;
+    -webkit-transform-origin: 90.8% 61.6%;
+        -ms-transform-origin: 90.8% 61.6%;
+            transform-origin: 90.8% 61.6%;
 }
 
-@-webkit-keyframes rotation {
-    from {
-        -webkit-transform: translate(0px, 0px) rotate(0deg);
-                transform: translate(0px, 0px) rotate(0deg);
-    }
+@-webkit-keyframes spin {
     to {
-        -webkit-transform: translate(-3px, -5px) rotate(360deg);
-                transform: translate(-3px, -5px) rotate(360deg);
+        -webkit-transform: translate(0px, 0px) rotate(360deg);
+                transform: translate(0px, 0px) rotate(360deg);
     }
  }
 
-@keyframes rotation {
-    from {
-        -webkit-transform: translate(0px, 0px) rotate(0deg);
-                transform: translate(0px, 0px) rotate(0deg);
-    }
+@keyframes spin {
     to {
-        -webkit-transform: translate(-3px, -5px) rotate(360deg);
-                transform: translate(-3px, -5px) rotate(360deg);
+        -webkit-transform: translate(0px, 0px) rotate(360deg);
+                transform: translate(0px, 0px) rotate(360deg);
     }
  }
 

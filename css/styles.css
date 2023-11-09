@@ -416,16 +416,13 @@ ABOUT PAGE
 
 .ferris-wheel {
     position: absolute;
-    animation: rotation 7s linear infinite;
-    transform-origin: 91% 62%;
+    animation: spin 12s infinite linear;
+    transform-origin: 90.8% 61.6%;
 }
 
-@keyframes rotation {
-    from {
-        transform: translate(0px, 0px) rotate(0deg);
-    }
+@keyframes spin {
     to {
-        transform: translate(-3px, -5px) rotate(360deg);
+        transform: translate(0px, 0px) rotate(360deg);
     }
  }
 
