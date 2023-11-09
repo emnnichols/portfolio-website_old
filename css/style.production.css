@@ -720,9 +720,11 @@ a.footer_icon {
 }
 
 .footer_right {
-    margin: -45px 0px 15px -10px;
+    position: absolute;
+    margin: -40px 7px 10px 0px;
     text-align: right;
-    width: 100%;
+    right: 0px;
+    width: 100px;
 }
 
 .footer_right a {
