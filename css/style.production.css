@@ -413,6 +413,10 @@ PROJECTS PAGE
 /* end grid fallback */
 
 @supports (display: grid) {
+.project__grid {
+    margin-bottom: 150px;
+}
+
 .grid {
     display: -ms-grid;
     display: grid;
@@ -512,13 +516,38 @@ ABOUT PAGE
 
 .main-about {
     text-align: center;
-    margin: 0px auto;
+    margin: 0px auto 150px auto;
     max-width: 800px;
 }
 
-table.skills_table {
+.skills_table {
     margin: 20px auto;
     text-align: center;
+    font-style: normal;
+}
+
+.skills_table th:first-child {
+    padding: 0px 25px 2px 25px;
+}
+
+.skills_table th {
+    background-color: #b7ddac;
+    border-radius: 50px;
+    font-family: 'Agbalumo', sans-serif;
+    padding: 0px 15px 2px 15px;
+}
+
+.skills_table tr td {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.skills_table tr:hover td {
+    background-color: rgba(183, 221, 172, 0.4);
+    border-radius: 50px;
+    font-family: 'Agbalumo', sans-serif;
+    padding: 0px 7px 2px 7px;
 }
 
 .ferris-wheel {
@@ -611,6 +640,10 @@ table.skills_table {
 CONTACT PAGE
 //////////////
 */
+
+.main-contact {
+    margin-bottom: 150px;
+}
 
 div.contact_form {
     display: inline-block;
