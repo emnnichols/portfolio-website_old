@@ -226,6 +226,7 @@ a.navigation__item--active {
     border: var(--nav-border);
     background-color: var(--text);
     color: var(--primary-color);
+    padding: 0px 13px 0px 13px;
 }
 
 a.navigation__item--active:hover, a.navigation__item--active:focus, a.navigation__item:hover, a.navigation__item:focus {
