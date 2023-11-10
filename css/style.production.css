@@ -254,9 +254,12 @@ HEADER
         -ms-flex-direction: row;
             flex-direction: row;
     background-color: rgba(183, 221, 172, 0.8);
-    border-bottom: 2px dotted #2b2b2b;
-    width: 100%;
-    top: 0px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 10px 6px #cccccc;
+            box-shadow: 0px 0px 10px 6px #cccccc;
+    width: 99%;
+    margin: 0px auto;
+    top: 15px;
 }
 
 .page-header__item {
@@ -267,7 +270,7 @@ HEADER
 
 .page-header__item:last-child {
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -276,6 +279,7 @@ HEADER
 
 .portfolio-logo {
     padding: 5px 0px 5px 5px;
+    margin-left: 10px;
     max-width: 200px;
     max-height: auto;
 }
@@ -301,12 +305,12 @@ NAVIGATION
 
 a.navigation__item {
     display: inline-block;
-    border: 2px solid #2b2b2b;
+    border: 1.3px solid #2b2b2b;
     background-color: #E6E6E6;
     color: #2b2b2b;
     cursor: pointer;
     padding: 0px 6px;
-    border-radius: 4px;
+    border-radius: 35px;
     font-style: normal;
     -webkit-transition: all 0.7s;
     -o-transition: all 0.7s;
@@ -314,12 +318,12 @@ a.navigation__item {
 }
 
 a.navigation__item--active {
-    border: 2px solid #2b2b2b;
+    border: 1.3px solid #2b2b2b;
     background-color: #2b2b2b;
     color: #E6E6E6;
     cursor: pointer;
     padding: 0px 6px;
-    border-radius: 4px;
+    border-radius: 35px;
     font-style: normal;
 }
 

@@ -30,7 +30,7 @@ visted links: dark green (#315b25)
     --button-border: 2px solid rgba(0, 0, 0, 0.3);
     --button-border-active: 2px solid var(--text);
     --header-bottom-border: 2px dotted var(--text);
-    --nav-border: 2px solid var(--text);
+    --nav-border: 1.3px solid var(--text);
 
     --font-size-h1: 40px;
     --font-size: 14px;
@@ -166,9 +166,11 @@ HEADER
     display: flex;
     flex-direction: row;
     background-color: rgba(183, 221, 172, 0.8);
-    border-bottom: var(--header-bottom-border);
-    width: 100%;
-    top: 0px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 6px var(--tertiary-color);
+    width: 99%;
+    margin: 0px auto;
+    top: 15px;
 }
 
 .page-header__item {
@@ -177,13 +179,14 @@ HEADER
 
 .page-header__item:last-child {
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     flex-grow: 1;
     text-align: right;
 }
 
 .portfolio-logo {
     padding: 5px 0px 5px 5px;
+    margin-left: 10px;
     max-width: 200px;
     max-height: auto;
 }
@@ -214,7 +217,7 @@ a.navigation__item {
     color: var(--text);
     cursor: pointer;
     padding: 0px 6px;
-    border-radius: 4px;
+    border-radius: 35px;
     font-style: normal;
     transition: all 0.7s;
 }
@@ -225,7 +228,7 @@ a.navigation__item--active {
     color: var(--primary-color);
     cursor: pointer;
     padding: 0px 6px;
-    border-radius: 4px;
+    border-radius: 35px;
     font-style: normal;
 }
 
