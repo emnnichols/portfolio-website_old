@@ -321,10 +321,6 @@ a.navigation__item--active {
     border: 1.3px solid #2b2b2b;
     background-color: #2b2b2b;
     color: #E6E6E6;
-    cursor: pointer;
-    padding: 0px 6px;
-    border-radius: 35px;
-    font-style: normal;
 }
 
 a.navigation__item--active:hover {
