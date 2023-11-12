@@ -188,7 +188,6 @@ HEADER
     padding: 5px 0px 5px 5px;
     margin-left: 10px;
     max-width: 200px;
-    max-height: auto;
 }
 
 /*
@@ -317,7 +316,7 @@ PROJECTS PAGE
     position: relative;
     box-shadow: 0px 0px 10px 5px var(--links-transparent);
     font-style: italic;
-    transform: scale(104%);
+    transform: scale(1.05, 1.05);
     text-shadow: 2px 2px 3px var(--links-transparent);
     color: var(--text);
     letter-spacing: 2px;
