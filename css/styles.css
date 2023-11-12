@@ -414,7 +414,7 @@ ABOUT PAGE
 
 .ferris-wheel {
     position: absolute;
-    animation: spin 12s infinite linear;
+    animation: spin 12s linear infinite;
     transform-origin: 90.8% 61.6%;
 }
 

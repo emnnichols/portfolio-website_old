@@ -551,8 +551,8 @@ ABOUT PAGE
 
 .ferris-wheel {
     position: absolute;
-    -webkit-animation: spin 12s infinite linear;
-            animation: spin 12s infinite linear;
+    -webkit-animation: spin 12s linear infinite;
+            animation: spin 12s linear infinite;
     -webkit-transform-origin: 90.8% 61.6%;
         -ms-transform-origin: 90.8% 61.6%;
             transform-origin: 90.8% 61.6%;
