@@ -316,7 +316,7 @@ PROJECTS PAGE
     position: relative;
     box-shadow: 0px 0px 10px 5px var(--links-transparent);
     font-style: italic;
-    transform: scale(1.05, 1.05);
+    transform: scale(1.04, 1.04);
     text-shadow: 2px 2px 3px var(--links-transparent);
     color: var(--text);
     letter-spacing: 2px;
